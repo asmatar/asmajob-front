@@ -5,25 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bec9aae-f206-4d34-bd37-a69b44b62df8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/AGENTS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/CLAUDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/next.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/postcss.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/asmajob/tsconfig.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desktop/asmajob/app/(auth)/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desktop/asmajob/app/(auth)/Register.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desktop/asmajob/providers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/asmajob/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/asmajob/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/asmajob/.eslintrc." afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/asmajob/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/asmajob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/asmajob/public/window.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="2" />
+    <option name="cachedIndexableFilesCount" value="22" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,36 +38,76 @@
     <commands />
     <urls />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3Go14YJtnjzDUjtqMENoMPRVjgU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/deruelle/Desktop/asmajob/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "develop",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/deruelle/Desktop/asmajob/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/deruelle/Desktop/asmajob/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(auth)/login" />
+      <recent name="$PROJECT_DIR$/app/(auth)" />
+      <recent name="$PROJECT_DIR$/app/(auth)/Register" />
+      <recent name="$PROJECT_DIR$/app/(auth)/Login" />
+      <recent name="$PROJECT_DIR$/app/(auth)/Page.tsx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,11 +122,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784622917034</updated>
-      <workItem from="1784622918064" duration="1693000" />
+      <workItem from="1784622918064" duration="3042000" />
+      <workItem from="1784626925051" duration="1799000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dependancy" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependancy" />
   </component>
 </project>
