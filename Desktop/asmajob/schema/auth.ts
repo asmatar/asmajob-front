@@ -15,8 +15,8 @@ export const loginSchema = z.object({
 export type loginFormSchema = z.infer<typeof loginSchema>;
 
 export const registerSchema = z.object({
-  firstname: z.string().min(1, 'The firstname is required'),
-  lastname: z.string().min(1, 'The lastname is required'),
+  firstname: z.string().min(1, 'The first name is required'),
+  lastname: z.string().min(1, 'The last name is required'),
   profession: z.string().min(1, 'The profession is required'),
   address: z.string().optional().nullable(),
   city: z.string().optional().nullable(),

@@ -49,7 +49,7 @@ export function LoginForm() {
               {...field}
               id={field.name}
               type="email"
-              placeholder="marie.dupont@hireflow.com"
+              placeholder="Enter your email"
               aria-invalid={fieldState.invalid}
               className="h-11 rounded-lg border-zinc-200 bg-white px-3 text-sm placeholder:text-zinc-400 focus-visible:border-[#6b4eff] focus-visible:ring-[#6b4eff]/20"
             />
@@ -64,7 +64,7 @@ export function LoginForm() {
         render={({ field, fieldState }) => (
           <Field data-invalid={fieldState.invalid}>
             <FieldLabel htmlFor={field.name} className="text-zinc-700">
-              Mot de passe
+              Password
             </FieldLabel>
             <InputGroup className="h-11 rounded-lg border-zinc-200 bg-white has-[[data-slot=input-group-control]:focus-visible]:border-[#6b4eff] has-[[data-slot=input-group-control]:focus-visible]:ring-[#6b4eff]/20">
               <InputGroupInput
@@ -80,9 +80,7 @@ export function LoginForm() {
                   size="icon-xs"
                   onClick={() => setShowPassword((prev) => !prev)}
                   aria-label={
-                    showPassword
-                      ? 'Masquer le mot de passe'
-                      : 'Afficher le mot de passe'
+                    showPassword ? 'Hide password' : 'Show password'
                   }
                   className="text-zinc-400 hover:text-zinc-600"
                 >
@@ -97,13 +95,13 @@ export function LoginForm() {
 
       <Button
         type="submit"
-        className="mt-1 h-11 w-full rounded-lg bg-[#6b4eff] text-sm font-medium text-white hover:bg-[#5a3fe6] cursor-pointer"
+        className="mt-1 h-11 w-full cursor-pointer rounded-lg bg-[#6b4eff] text-sm font-medium text-white hover:bg-[#5a3fe6]"
       >
-        connect
+        Log in
       </Button>
 
       <p className="mt-2 text-center text-sm text-zinc-600">
-        Pas encore de account ? {' '}
+        Don&apos;t have an account?{' '}
         <Link
           href="/register"
           className="font-medium text-[#6b4eff] hover:text-[#5a3fe6]"

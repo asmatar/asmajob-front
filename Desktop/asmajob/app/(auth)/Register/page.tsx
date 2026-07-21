@@ -1,5 +1,11 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { RegisterForm } from '@/app/(auth)/register/RegisterForm';
+
+export const metadata: Metadata = {
+  title: 'Sign up | AsmaJobs',
+  description: 'Create your AsmaJobs account',
+};
 
 const Register = () => {
   return (

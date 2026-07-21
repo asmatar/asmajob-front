@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { LoginForm } from '@/app/(auth)/login/LoginForm';
 
 export const metadata: Metadata = {
-  title: 'Connexion | HireFlow',
-  description: 'Connect to your Asmajob account',
+  title: 'Login | AsmaJobs',
+  description: 'Log in to your AsmaJobs account',
 };
 
 const Login = () => (

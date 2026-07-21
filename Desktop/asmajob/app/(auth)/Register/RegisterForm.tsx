@@ -9,7 +9,6 @@ import { Input } from '@/components/ui/input';
 import { InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput, } from '@/components/ui/input-group';
 import { Eye, EyeOff } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import z from 'zod';
 
 export const RegisterForm = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -44,12 +43,12 @@ export const RegisterForm = () => {
         render={({ field, fieldState }) => (
           <Field data-invalid={fieldState.invalid}>
             <FieldLabel htmlFor={field.name} className="text-zinc-700">
-              Firstname
+              First name
             </FieldLabel>
             <Input
               {...field}
               id={field.name}
-              placeholder="entrez votre prenom"
+              placeholder="Enter your first name"
               aria-invalid={fieldState.invalid}
               className="h-11 rounded-lg border-zinc-200 bg-white px-3 text-sm placeholder:text-zinc-400 focus-visible:border-[#6b4eff] focus-visible:ring-[#6b4eff]/20"
             />
@@ -63,12 +62,12 @@ export const RegisterForm = () => {
         render={({ field, fieldState }) => (
           <Field data-invalid={fieldState.invalid}>
             <FieldLabel htmlFor={field.name} className="text-zinc-700">
-              Lastname
+              Last name
             </FieldLabel>
             <Input
               {...field}
               id={field.name}
-              placeholder="entrez votre nom"
+              placeholder="Enter your last name"
               aria-invalid={fieldState.invalid}
               className="h-11 rounded-lg border-zinc-200 bg-white px-3 text-sm placeholder:text-zinc-400 focus-visible:border-[#6b4eff] focus-visible:ring-[#6b4eff]/20"
             />
@@ -87,7 +86,7 @@ export const RegisterForm = () => {
             <Input
               {...field}
               id={field.name}
-              placeholder="Entrez votre profession"
+              placeholder="Enter your profession"
               aria-invalid={fieldState.invalid}
               className="h-11 rounded-lg border-zinc-200 bg-white px-3 text-sm placeholder:text-zinc-400 focus-visible:border-[#6b4eff] focus-visible:ring-[#6b4eff]/20"
             />
@@ -107,7 +106,7 @@ export const RegisterForm = () => {
               {...field}
               id={field.name}
               type="email"
-              placeholder="entrez votre email"
+              placeholder="Enter your email"
               aria-invalid={fieldState.invalid}
               className="h-11 rounded-lg border-zinc-200 bg-white px-3 text-sm placeholder:text-zinc-400 focus-visible:border-[#6b4eff] focus-visible:ring-[#6b4eff]/20"
             />
@@ -121,7 +120,7 @@ export const RegisterForm = () => {
         render={({ field, fieldState }) => (
           <Field data-invalid={fieldState.invalid}>
             <FieldLabel htmlFor={field.name} className="text-zinc-700">
-              Mot de passe
+              Password
             </FieldLabel>
             <InputGroup className="h-11 rounded-lg border-zinc-200 bg-white has-[[data-slot=input-group-control]:focus-visible]:border-[#6b4eff] has-[[data-slot=input-group-control]:focus-visible]:ring-[#6b4eff]/20">
               <InputGroupInput
@@ -137,9 +136,7 @@ export const RegisterForm = () => {
                   size="icon-xs"
                   onClick={() => setShowPassword((prev) => !prev)}
                   aria-label={
-                    showPassword
-                      ? 'Masquer le mot de passe'
-                      : 'Afficher le mot de passe'
+                    showPassword ? 'Hide password' : 'Show password'
                   }
                   className="text-zinc-400 hover:text-zinc-600"
                 >
@@ -153,9 +150,9 @@ export const RegisterForm = () => {
       />
       <Button
         type="submit"
-        className="mt-1 h-11 w-full rounded-lg bg-[#6b4eff] text-sm font-medium text-white hover:bg-[#5a3fe6] cursor-pointer"
+        className="mt-1 h-11 w-full cursor-pointer rounded-lg bg-[#6b4eff] text-sm font-medium text-white hover:bg-[#5a3fe6]"
       >
-        connect
+        Sign up
       </Button>
     </form>
   );
