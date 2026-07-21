@@ -9,6 +9,7 @@ import { Input } from '@/components/ui/input';
 import { InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput, } from '@/components/ui/input-group';
 import { Eye, EyeOff } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export const RegisterForm = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -135,9 +136,7 @@ export const RegisterForm = () => {
                   type="button"
                   size="icon-xs"
                   onClick={() => setShowPassword((prev) => !prev)}
-                  aria-label={
-                    showPassword ? 'Hide password' : 'Show password'
-                  }
+                  aria-label={showPassword ? 'Hide password' : 'Show password'}
                   className="text-zinc-400 hover:text-zinc-600"
                 >
                   {showPassword ? <EyeOff /> : <Eye />}
@@ -154,6 +153,15 @@ export const RegisterForm = () => {
       >
         Sign up
       </Button>
+      <p className="mt-2 text-center text-sm text-zinc-600">
+        you do have an account?{' '}
+        <Link
+          href="/login"
+          className="font-medium text-[#6b4eff] hover:text-[#5a3fe6]"
+        >
+          Let's connect
+        </Link>
+      </p>
     </form>
   );
 };
